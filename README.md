@@ -20,3 +20,7 @@
 
 
 ![home](https://user-images.githubusercontent.com/101788326/186601675-5bc3d64e-80ed-4884-b624-e71375736055.png)
+
+# Exploratory Data Analysis:
+![edah](https://user-images.githubusercontent.com/101788326/186602521-13fb8f37-120d-4206-bf7b-c896da9186d7.jpg)
+
