@@ -18,6 +18,11 @@
 - credit_card_balance:The monthly data about previous credit cards clients have had with Home Credit. Each row is one month of a credit card balance, and a single credit card can have many rows.
 - installments_payment:The data of payment history for previous loans at Home Credit. There is one row for every made payment and one row for every missed payment.
 
+We can see that the data can be divided into three categories:
+- Applicant-level data which contains information about the applicant, such as education, number of family members, car owned, etc.
+- Bureau-level data which provides historical transactional information and credit balance information.
+- Other data, including external data from other data sources such as credit scores from other platforms, etc.
+
 
 ![home](https://user-images.githubusercontent.com/101788326/186601675-5bc3d64e-80ed-4884-b624-e71375736055.png)
 
@@ -32,4 +37,14 @@
 - It’s an imbalance Dataset. (Defaulter : Non-Defaulter = 8 : 92 = 2 : 23)  Percentage of applicants approved previously but are defaulter in current loan: 7.588655443691958.
 - Percentage of applicants refused previously but are non-defaulter in current loan: 88.00358612820408.
 -  Most applications are approved. Cancelled and Refused are almost on the same level.
+
+# Merging and Data Preprocessing
+
+- Merging is done based on logics and merged on unique IDs.
+- Used Pipelines like Simple Imputation, Column Transformer
+- Balancing the target variable using SMOTE.
+
+# Model Building and Evaluation
+
+- Different Algorithms are used like Logistic Regression, RandomForest,XGBoost where RandomForest gave a recall score of 97.4% and AUC – ROC curve measurement is performed for classification at various threshold settings where RandomFprest outperformed with 100%.
 
