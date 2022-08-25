@@ -21,6 +21,13 @@
 
 ![home](https://user-images.githubusercontent.com/101788326/186601675-5bc3d64e-80ed-4884-b624-e71375736055.png)
 
-# Exploratory Data Analysis:
-![edah](https://user-images.githubusercontent.com/101788326/186602521-13fb8f37-120d-4206-bf7b-c896da9186d7.jpg)
+# EDA and Insights:
+
+![target](https://user-images.githubusercontent.com/101788326/186606923-39751d22-dfc4-4e8e-986f-6333ed46df76.jpg)
+
+
+- No. of defaulters: 24825
+- No. of non-defaulters: 282686
+- Percentage of defaulters: 8.072881945686495
+- It’s an imbalance Dataset. (Defaulter : Non-Defaulter = 8 : 92 = 2 : 23)  Percentage of applicants approved previously but are defaulter in current loan: 7.588655443691958  Percentage of applicants refused previously but are non-defaulter in current loan: 88.00358612820408  Most applications are approved. Cancelled and Refused are almost on the same level.
 
