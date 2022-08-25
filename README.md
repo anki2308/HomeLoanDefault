@@ -41,7 +41,7 @@ We can see that the data can be divided into three categories:
 # Merging and Data Preprocessing
 
 - Merging is done based on logics and merged on unique IDs.
-- Used Pipelines like Simple Imputation, Column Transformer
+- Used Pipelines like Simple Imputation, Column Transformer.
 - Balancing the target variable using SMOTE.
 
 # Model Building and Evaluation
